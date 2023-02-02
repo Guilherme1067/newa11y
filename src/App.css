@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 150px;
+  background-color: gray;
+}
+
+.left-side {
+  display: flex;
+  gap: 50px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #263f2f;
+  color: #85dda4;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 40px 250px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.main-content div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.modal {
+  width: 500px;
+  height: 500px;
+  background:red;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
